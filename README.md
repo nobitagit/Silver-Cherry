@@ -1,4 +1,4 @@
 Silver-Cherry
 =============
 
-WP Responsive theme
+Silver Cherry is a free WordPress Responsive theme built on Zurb's Foundation and the Reverie Framework.
