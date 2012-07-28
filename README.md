@@ -12,7 +12,7 @@ The extremely low number and weight of images used for developing makes it even 
 Images added to posts shrink to adapt to viewport on resize events.
 
 ##Layout
-Silver Cherry features a right widgetized sidebar which stacks under the main section in mobile view.
+Based on a 12 col grid system Silver Cherry features a right widgetized sidebar which stacks under the main section in mobile view.
 
 
 ##Menu
@@ -20,21 +20,19 @@ The main menu is mostly developed in CSS3 and allows the user to nest up to thre
 Javascript is only used to increase accuracy when displaying on smaller screen sizes and to allow toggling.
 
 ##Typography 
-Fonts are sized in *rem* with fallback in *px*, and thought for easy customisation by human beings. If you want to read more on this topic then [here](http://snook.ca/archives/html_and_css/font-size-with-rem) you go.
-
-Site title and Headings use Lobster and Homenaje from Google Fonts.
-
-*This text will be italic*
-_This will also be italic_
-**This text will be bold**
-__This will also be bold__
-
+Fonts are sized in **rem** with fallback in **px**, and thought for easy customisation by human beings. 
 ```css
 html { font-size: 62.5%; font-family: Arial, Helvetica, sans-serif; } 
 h1 { font-size: 52px; font-size: 5.2rem; margin-bottom: 2px; }
 h2 { font-size: 45px; font-size: 4.5rem; margin-bottom: 9px; }
 h3 { font-size: 28px; font-size: 2.8rem; margin-bottom: 9px; }
 ```
+If you want to read more on this topic then [here](http://snook.ca/archives/html_and_css/font-size-with-rem) you go.
+
+Site title and Headings use Lobster and Homenaje from Google Fonts.
+
+
+
 * Item 1
 * Item 2
   * Item 2a
