@@ -23,7 +23,6 @@
 
 	<!-- Included JS Files of Foundation -->
 	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/js/app.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/myjquery.js"></script>
     
 	<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.

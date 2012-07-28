@@ -1,4 +1,7 @@
-Reverie is a versatile HTML5 responsive WordPress framework based on ZURB's Foundation, brought you by Zhen Huang from ThemeFortress. If you have any questions or suggestions, please visit the support forum.
+Silver Cherry is a free Responsive Theme brought by Nobita and Pixelite.
+
+It's based out on ZURB's Foundation and Reverie Framework by Zhen Huang from ThemeFortress. 
+If y
 
 ThemeFortress:
 http://themefortress.com
