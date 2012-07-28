@@ -29,7 +29,12 @@ _This will also be italic_
 **This text will be bold**
 __This will also be bold__
 
-
+```css
+html { font-size: 62.5%; font-family: Arial, Helvetica, sans-serif; } 
+h1 { font-size: 52px; font-size: 5.2rem; margin-bottom: 2px; }
+h2 { font-size: 45px; font-size: 4.5rem; margin-bottom: 9px; }
+h3 { font-size: 28px; font-size: 2.8rem; margin-bottom: 9px; }
+```
 * Item 1
 * Item 2
   * Item 2a
