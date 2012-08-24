@@ -144,14 +144,14 @@
 	-------------------------------------------------- */
 	html { font-size: 62.5%; font-family: Arial, Helvetica, sans-serif; } 
 	body { font-size: 15px; font-size: 1.5rem; line-height: 24px; line-height: 2.4rem; color: #3C3C3C; -webkit-font-smoothing: antialiased;} 
-	h1, h2, h3, h4, h5, h6 { color: #333333; font-weight: bold; line-height: 1.25em; font-family:'Homenaje', "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+	h1, h2, h3, h4, h5, h6 { color: #333333; font-weight: bold;  font-family:'Homenaje', "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-	h1 { font-size: 52px; font-size: 5.2rem; margin-bottom: 2px; }
-	h2 { font-size: 45px; font-size: 4.5rem; margin-bottom: 9px; }
-	h3 { font-size: 28px; font-size: 2.8rem; margin-bottom: 9px; }
-	h4 { font-size: 25px; font-size: 2.5rem; margin-bottom: 3px; }
-	h5 { font-size: 21px; font-size: 2.1rem; font-weight: normal; margin-bottom: 3px;  }
-	h6 { font-size: 18px; font-size: 1.8rem; font-weight: normal; }
+	h1 { font-size: 52px; font-size: 5.2rem; line-height: 7.2rem; line-height: 7.2rem; margin-bottom: 2px; }
+	h2 { font-size: 45px; font-size: 4.5rem; line-height: 4.8rem; line-height: 4.8rem; margin-bottom: 9px; }
+	h3 { font-size: 28px; font-size: 2.8rem; line-height: 1.25em; margin-bottom: 9px; }
+	h4 { font-size: 25px; font-size: 2.5rem; line-height: 1.25em; margin-bottom: 3px; }
+	h5 { font-size: 21px; font-size: 2.1rem; line-height: 1.25em; font-weight: normal; margin-bottom: 3px;  }
+	h6 { font-size: 18px; font-size: 1.8rem; line-height: 1.25em; font-weight: normal; }
 
 	h1.entry-title, .post-box > h1 { border-bottom: dashed 1px #999999; text-shadow: 1px 1px 0px #AAAAAA;}
 	h1.entry-title a { color: #333333; }
@@ -170,7 +170,6 @@
 	.entry-content h4 { font-size: 28px; font-size: 2.8rem; margin-bottom: 3px; }
 	.entry-content h5 { font-size: 24px; font-size: 2.4rem; margin-bottom: 3px; }
 	.entry-content h6 { font-size: 21px; font-size: 2.1rem; margin-bottom: 2px; }
-	.entry-content p  { text-align: justify; text-justify: newspaper; }
 
 	aside h6, footer h6 { border-bottom: solid 5px #cc0066; margin: 5px 0; }
 	aside { font-size: 14px; font-size: 1.4rem; }
@@ -178,7 +177,7 @@
 
 	.subheader { color: #777; font-weight: 300; margin-bottom: 24px; }
 
-	p {  margin: 0 0 18px; }
+	p {  margin: 0 0 24px; }
 	p img { margin: 0; }
 	p.lead { font-size: 18px; font-size: 1.8rem; line-height: 20px;  }
 	
@@ -583,7 +582,7 @@
     Labels
     -------------------------------------------------- */
 
-	.label { padding: 0 6px 2px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; text-decoration: none; line-height: 1;  white-space: nowrap; display: inline; position: relative; bottom: 1px; color: #fff; padding: 3px 8px; margin-right: -1px;}
+	.label { padding: 0 6px 2px; font-size: 12px; font-size: 1.2rem; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; text-decoration: none; line-height: 1;  white-space: nowrap; display: inline; position: relative; bottom: 1px; color: #fff; padding: 3px 8px; margin-right: -1px;}
 	.label.radius { -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
 	.label.round { padding: 1px 7px 2px; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }
 	

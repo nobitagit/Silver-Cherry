@@ -71,7 +71,7 @@
                     
                     <nav role="navigation">
                         <?php /*
-                            You can use Foundation Tabs to get a better responsive design.
+                  
                             Our navigation menu. If one isn't filled out, wp_nav_menu falls
                             back to wp_page_menu. The menu assigned to the primary position is
                             the one used. If none is assigned, the menu with the lowest ID is
@@ -87,7 +87,14 @@
                             'link_before' => '',
                             'link_after' => '',
                             'depth' => 0,
-                            'items_wrap' => '<ul class="nav"><li id="menu-toggler" class="show-on-phones" style="text-align:center;">Menu</li><li><ul id="the-menu" >%3$s</ul></li></ul>',
+                            'items_wrap' => '<ul class="nav">
+                            					<li id="menu-toggler" class="show-on-phones">Menu</li>
+                            					<li>
+                            						<ul id="the-menu">
+                            							%3$s
+                            						</ul>
+                            					</li>
+                            				</ul>',
                             'walker' => new description_walker())
                         ); ?>
                         

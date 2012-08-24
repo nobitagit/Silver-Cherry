@@ -163,7 +163,7 @@ License URI:        http://www.opensource.org/licenses/mit-license.php
 	/* Customise Pings */
 	#comments a.url { background:#DDD; padding: 3px;}
 	
-	article footer { margin-top: 65px; }
+	article footer { margin-top: 72px; }
 
 /*  -------------------------------------------------------
     Customize Foundation Style Pagination for WP-Pagenavi
@@ -289,7 +289,7 @@ License URI:        http://www.opensource.org/licenses/mit-license.php
 	
 	ul#the-menu { display: none; }
 	ul.nav { width: auto; margin: 15px -20px 15px -20px; height: auto; }
-	li#menu-toggler { cursor: pointer; }
+	li#menu-toggler { cursor: pointer; text-align:center;}
 	.nav-border:after { border-color: #555 transparent transparent  transparent ; border-style:solid; border-width:6px; content:""; display:block; height:0; position:absolute; width:0; left: 49%; top: -18px; }
 	ul#the-menu li a{ display: block; width: auto; height: auto; padding: 18px 20px; border: solid #ccc; border-width: 1px 0px 0px; margin: 0; color: #555; background: #eee;  }
 	ul#the-menu li a:hover { background-color: #DBDBDB; }
