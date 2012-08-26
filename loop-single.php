@@ -31,7 +31,7 @@
 			<?php the_content(); ?>
             
             		<footer>
-        <?php wp_link_pages(array('before' => '<nav id="page-nav"><p>' . __('Pages:', 'reverie'), 'after' => '</p></nav>' )); ?>
+        <?php wp_link_pages(array('before' => '<nav id="page-nav"><p>' . __('Pages:', 'silverCherry'), 'after' => '</p></nav>' )); ?>
                 
             
 		</footer>

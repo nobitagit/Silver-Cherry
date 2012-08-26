@@ -1,9 +1,9 @@
 /*
 Theme Name:         Silver Cherry
-Theme URI:          http://www.pixelite.me
+Theme URI:          http://silvercherry.pixelite.me
 Description:        Silver Cherry, a responsive &amp; minimalist HTML5 theme based on the Reverie framework and on ZURB's Foundation.
 Version:            0.1.2
-Author:             Pixelite
+Author:             Nobita
 Author URI:         http://www.pixelite.me
 
 License:            MIT License
@@ -34,7 +34,8 @@ License URI:        http://www.opensource.org/licenses/mit-license.php
 	
 	/* Foundation-specific presentation CSS by ZURB */
 	body { padding-bottom: 60px; }
-	#container { padding: 0 0 25px 0; margin-bottom:200px; width: 100%; overflow:hidden; background: #F5F5F5; /* fallback */
+	#container { padding: 0 0 25px 0; margin-bottom:200px; width: 100%; overflow:hidden; border-bottom: 1px solid whitesmoke;
+				background: #F5F5F5; /* fallback */
 				background-image: linear-gradient(top, #F5F5F5 64%, #DEDEDE 89%);
 				background-image: -o-linear-gradient(top, #F5F5F5 64%, #DEDEDE 89%);
 				background-image: -moz-linear-gradient(top, #F5F5F5 64%, #DEDEDE 89%);
@@ -44,7 +45,7 @@ License URI:        http://www.opensource.org/licenses/mit-license.php
 	.footer-container { border-top: 1px solid #D6D6D6; }
 	div.reverie-header { margin: 0 0 30px 0; padding: 0px 0 0 0; 
 						 border-bottom: solid 5px #CC0066; display: block; position: relative; }	
-	div.reverie-header h1 { margin-bottom: 0; padding: 0; font-family: 'Lobster Two', Georgia, "Times New Roman", Times, serif; font-style:italic; line-height: 1em; font-weight:bold; font-size: 80px; color:#CC0066; }
+	div.reverie-header h1 { margin-bottom: 0; padding: 0; font-family: 'Lobster Two', Georgia, "Times New Roman", Times, serif; font-style:italic; line-height: 1em; font-weight:bold; font-size: 80px; color:#CC0066; text-shadow: 0 1px grey; }
 	div.reverie-header h1 a {  }
 	div.reverie-header h1 a:hover { color:#a05; text-shadow: none;}
 	.nav-border { color:#cc0066; border: #cc0066 2px solid; background-color:#cc0066; height:1px; position: relative; } 
@@ -185,7 +186,7 @@ License URI:        http://www.opensource.org/licenses/mit-license.php
     Post meta styles (author, date, comments) 
     ----------------------- */
 	
-	.meta-post, .meta-post a { color:#888888; margin-bottom: 15px; }
+	.meta-post, .meta-post a { color:#888888; margin-bottom: 18px; }
 	.meta-post a:hover { color: #CC0066;}
 
 /*  --------------------------

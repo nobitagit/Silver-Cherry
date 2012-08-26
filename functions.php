@@ -1,7 +1,7 @@
 <?php
 function reverie_setup() {
 	// Add language supports. Please note that Reverie Framework does not include language files.
-	load_theme_textdomain('reverie', get_template_directory() . '/lang');
+	load_theme_textdomain('silverCherry', get_template_directory() . '/lang');
 	
 	// Add post thumbnail supports. http://codex.wordpress.org/Post_Thumbnails
 	add_theme_support('post-thumbnails');
@@ -13,8 +13,8 @@ function reverie_setup() {
 	// Add menu supports. http://codex.wordpress.org/Function_Reference/register_nav_menus
 	add_theme_support('menus');
 	register_nav_menus(array(
-		'primary_navigation' => __('Primary Navigation', 'reverie'),
-		'utility_navigation' => __('Utility Navigation', 'reverie')
+		'primary_navigation' => __('Primary Navigation', 'silverCherry'),
+		'utility_navigation' => __('Utility Navigation', 'silverCherry')
 	));	
 }
 add_action('after_setup_theme', 'reverie_setup');
@@ -128,7 +128,7 @@ function social_settings_api_init() {
 // Add the section to general settings so we can add our
 // fields to it
 add_settings_section('social_setting_section',
-'Social sites on the web',
+'Your Social Networks links',
 'social_setting_section_callback_function',
 'general');
 // Add the field with the names and function to use for our new
@@ -147,29 +147,12 @@ add_settings_field('general_setting_twitter',
 'general',
 'social_setting_section');
 register_setting('general','general_setting_twitter');
-add_settings_field('general_setting_googleplus',
-'Google Plus Page',
-'general_setting_googleplus_callback_function',
-'general',
-'social_setting_section');
-register_setting('general','general_setting_googleplus');
-add_settings_field('general_setting_youtube',
-'YouTube Page',
-'general_setting_youtube_callback_function',
-'general',
-'social_setting_section');
-register_setting('general','general_setting_youtube');
-add_settings_field('general_setting_linkedin',
-'LinkedIn Page',
-'general_setting_linkedin_callback_function',
-'general',
-'social_setting_section');
-register_setting('general','general_setting_linkedin');
+
 }
 add_action('admin_init', 'social_settings_api_init');
 // —————-Settings section callback function———————-
 function social_setting_section_callback_function() {
-echo '<p>Please fille these forms to link to your social profiles. <br />Go to your profile, <b>copy the address of you page</b>, then <b>paste it in the appropriate field here below</b>. Click save and enjoy.</p>';
+echo '<p>Please fille these forms to link to your social profiles. <br />Go to your profile, <b>copy the address of your page</b>, then <b>paste it in the appropriate field here below</b>. Click save and enjoy.</p>';
 }
 function general_setting_facebook_callback_function() {
 echo '<input name="general_setting_facebook" id="general_setting_facebook" type="text" value="'. get_option('general_setting_facebook') .'" />';
@@ -177,15 +160,7 @@ echo '<input name="general_setting_facebook" id="general_setting_facebook" type=
 function general_setting_twitter_callback_function() {
 echo '<input name="general_setting_twitter" id="general_setting_twitter" type="text" value="'. get_option('general_setting_twitter') .'" />';
 }
-function general_setting_googleplus_callback_function() {
-echo '<input name="general_setting_googleplus" id="general_setting_googleplus" type="text" value="'. get_option('general_setting_googleplus') .'" />';
-}
-function general_setting_youtube_callback_function() {
-echo '<input name="general_setting_youtube" id="general_setting_youtube" type="text" value="'. get_option('general_setting_youtube') .'" />';
-}
-function general_setting_linkedin_callback_function() {
-echo '<input name="general_setting_linkedin" id="general_setting_linkedin" type="text" value="'. get_option('general_setting_linkedin') .'" />';
-}
+
 
 
 

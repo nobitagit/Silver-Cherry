@@ -5,15 +5,15 @@
 	
 		<div id="main" class="twelve columns" role="main">
 			<div class="post-box">
-				<h1><?php _e('Wow, this is embarassing...', 'reverie'); ?></h1>
+				<h1><?php _e('Wow, this is embarassing...', 'silverCherry'); ?></h1>
 				<div class="error">
-					<p class="bottom"><?php _e('The page you are looking for might be temporarily unavailable, had its name changed, or might have been removed by aliens.', 'reverie'); ?></p>
+					<p class="bottom"><?php _e('The page you are looking for might be temporarily unavailable, had its name changed, or might have been removed by aliens.', 'silverCherry'); ?></p>
 				</div>
-				<p><?php _e('Please try the following:', 'reverie'); ?></p>
+				<p><?php _e('Please try the following:', 'silverCherry'); ?></p>
 				<ul> 
-					<li><?php printf(__('- Return to the <a href="%s">home page</a>', 'reverie'), home_url()); ?></li>
-					<li><?php _e('- Click the <a href="javascript:history.back()">Back</a> button', 'reverie'); ?></li>
-					<li><?php _e('- Check your spelling and search again', 'reverie'); ?></li>
+					<li><?php printf(__('- Return to the <a href="%s">home page</a>', 'silverCherry'), home_url()); ?></li>
+					<li><?php _e('- Click the <a href="javascript:history.back()">Back</a> button', 'silverCherry'); ?></li>
+					<li><?php _e('- Check your spelling and search again', 'silverCherry'); ?></li>
 				</ul>
 			</div>
 		</div><!-- /#main -->

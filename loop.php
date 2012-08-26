@@ -1,7 +1,7 @@
 <?php /* If there are no posts to display, such as an empty archive page */ ?>
 <?php if (!have_posts()) : ?>
 	<div class="panel">
-		<p class="bottom"><?php _e('Sorry, there\'s nothing here.', 'reverie'); ?></p>
+		<p class="bottom"><?php _e('Sorry, there\'s nothing here.', 'silverCherry'); ?></p>
 	</div>
 	
 <?php endif; ?>
@@ -71,7 +71,7 @@ if(get_the_tag_list()) {
 <?php /* Display navigation to next/previous pages when applicable */ ?>
 <?php if ($wp_query->max_num_pages > 1) : ?>
 	<nav id="post-nav">
-		<div class="post-previous left"><?php next_posts_link( __( '<span class="white nice button radius fadeIn">Older posts</span>', 'reverie' ) ); ?></div>
-		<div class="post-next right"><?php previous_posts_link( __( '<span class="white nice button radius fadeIn">Newer posts</span>', 'reverie' ) ); ?></div>
+		<div class="post-previous left"><?php next_posts_link( __( '<span class="white nice button radius fadeIn">Older posts</span>', 'silverCherry' ) ); ?></div>
+		<div class="post-next right"><?php previous_posts_link( __( '<span class="white nice button radius fadeIn">Newer posts</span>', 'silverCherry' ) ); ?></div>
 	</nav>
 <?php endif; ?>

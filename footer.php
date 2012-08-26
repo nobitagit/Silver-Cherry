@@ -5,7 +5,7 @@
 			<div id="credits" class="row">
 				<div class="nine columns">
 					
-					<p class="hide-on-phones"><?php bloginfo('name'); ?> is based on the Silver Cherry theme delivered by Pixelite. <br />
+					<p class="hide-on-phones"><?php bloginfo('name'); ?> is based on the Silver Cherry theme delivered by <a href="http://www.pixelite.me">Nobita</a>. <br />
                     Powered by <a href="http://foundation.zurb.com/">Foundation</a>  &amp; <a href="http://themefortress.com/reverie/" title="Reverie Framework">Reverie Framework</a>.</p>
 				</div>
                 <div class="three columns">

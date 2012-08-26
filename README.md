@@ -32,12 +32,6 @@ If you want to read more on this topic then [here](http://snook.ca/archives/html
 Site title and Headings use Lobster and Homenaje from Google Fonts.
 
 
-
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-
 ##Other features
 
 * the number of comments is displayed using CSS3 bubbles as shown by [David Desandro](http://desandro.com/resources/css-speech-bubble-icon/). Still no images.

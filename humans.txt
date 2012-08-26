@@ -1,13 +1,12 @@
-/* Reverie is a versatile HTML5 responsive WordPress framework based on ZURB's Foundation. */
+/* Silver Cherry is a rework on the Reverie Framework*/
 
-/* TEAM */
-
+/* THANKS */	
+						
 Zhen Huang
 http://themefortress.com
 Twitter: @themefortress
 Reverie Framework: http://themefortress.com/reverie/
 
-/* THANKS */							
 
 ZURB Foundation
 http://foundation.zurb.com/
