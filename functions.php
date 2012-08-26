@@ -1,5 +1,5 @@
 <?php
-function reverie_setup() {
+function silverCherry_setup() {
 	// Add language supports. Please note that Reverie Framework does not include language files.
 	load_theme_textdomain('silverCherry', get_template_directory() . '/lang');
 	
@@ -17,7 +17,7 @@ function reverie_setup() {
 		'utility_navigation' => __('Utility Navigation', 'silverCherry')
 	));	
 }
-add_action('after_setup_theme', 'reverie_setup');
+add_action('after_setup_theme', 'silverCherry_setup');
 
 // create widget areas: sidebar, footer
 $sidebars = array('Sidebar');
@@ -40,7 +40,7 @@ foreach ($sidebars as $sidebar) {
 }
 
 // return entry meta information for posts, used by multiple loops.
-function reverie_entry_meta() {
+function silverCherry_entry_meta() {
 	echo '<p class="byline author vcard meta-post">'.' <a href="'. get_author_posts_url(get_the_author_meta('ID')) .'" rel="author" class="fn">'. get_the_author() .'</a>, <time class="updated" datetime="'. get_the_time('c') .'" >'. sprintf(get_the_time('jS F Y'), get_the_time()) .'</time></p>';
 }
 

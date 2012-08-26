@@ -1,4 +1,4 @@
-<?php function reverie_comments($comment, $args, $depth) {
+<?php function silverCherry_comments($comment, $args, $depth) {
 	$GLOBALS['comment'] = $comment; ?>
 	<li <?php comment_class(); ?>>
 		<article id="comment-<?php comment_ID(); ?>">

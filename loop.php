@@ -36,7 +36,7 @@
     	<span class="post-categories fadeIn"><?php the_category('  &bull; '); ?></span>
     </div>
 
-<?php /*?>			<?php reverie_entry_meta();?> <?php */?>		
+<?php /*?>			<?php silverCherry_entry_meta();?> <?php */?>		
 
 	</header>
 		<div class="entry-content">
