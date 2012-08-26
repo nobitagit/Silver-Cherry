@@ -1,12 +1,15 @@
-Silver Cherry is a free Responsive Theme brought by Nobita and Pixelite.
+Silver Cherry is a free Responsive Theme brought by Nobita.
 
 It's based out on ZURB's Foundation and Reverie Framework by Zhen Huang from ThemeFortress. 
 
-Fork/download Silver Cjerry on Github:
+Fork/download Silver Cherry on Github:
 https://github.com/nobitagit/Silver-Cherry
 
+Find me on Pixelite:
+http://www.pixelite.me
+
 **************
-other esources
+other resources
 **************
 
 ThemeFortress:
