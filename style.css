@@ -45,7 +45,7 @@ License URI:        http://www.opensource.org/licenses/mit-license.php
 	.footer-container { border-top: 1px solid #D6D6D6; }
 	div.reverie-header { margin: 0 0 30px 0; padding: 0px 0 0 0; 
 						 border-bottom: solid 5px #CC0066; display: block; position: relative; }	
-	div.reverie-header h1 { margin-bottom: 0; padding: 0; font-family: 'Lobster Two', Georgia, "Times New Roman", Times, serif; font-style:italic; line-height: 1em; font-weight:bold; font-size: 80px; color:#CC0066; text-shadow: 0 1px grey; }
+	div.reverie-header h1 { margin-bottom: 0; padding: 0; font-family: 'Lobster Two', Georgia, "Times New Roman", Times, serif; font-style:italic; line-height: 1em; font-weight:700; font-size: 80px; color:#CC0066; text-shadow: 0 1px grey; }
 	div.reverie-header h1 a {  }
 	div.reverie-header h1 a:hover { color:#a05; text-shadow: none;}
 	.nav-border { color:#cc0066; border: #cc0066 2px solid; background-color:#cc0066; height:1px; position: relative; } 

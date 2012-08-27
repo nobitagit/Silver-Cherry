@@ -23,3 +23,10 @@ https://github.com/milohuang/reverie
 
 Visit Reverie Support Forum:
 http://themefortress.com/discuss/forum/reverietheme/
+
+Social Icons:
+http://sixrevisions.com/freebies/icons/free-social-media-icons-for-designers-a-life-in-pixels/
+
+
+++++++++++++++++
+This theme and all its bundled resources (including images) are released under GPL/MIT licences.

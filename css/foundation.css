@@ -144,20 +144,20 @@
 	-------------------------------------------------- */
 	html { font-size: 62.5%; font-family: Arial, Helvetica, sans-serif; } 
 	body { font-size: 15px; font-size: 1.5rem; line-height: 24px; line-height: 2.4rem; color: #3C3C3C; -webkit-font-smoothing: antialiased;} 
-	h1, h2, h3, h4, h5, h6 { color: #333333; font-weight: bold;  font-family:'Homenaje', "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+	h1, h2, h3, h4, h5, h6 { color: #333333; font-weight: 400;  font-family:'Homenaje', "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 52px; font-size: 5.2rem; line-height: 7.2rem; margin-bottom: 2px; }
 	h2 { font-size: 45px; font-size: 4.5rem; line-height: 4.8rem; margin-bottom: 9px; }
 	h3 { font-size: 28px; font-size: 2.8rem; line-height: 1.25em; margin-bottom: 9px; }
 	h4 { font-size: 25px; font-size: 2.5rem; line-height: 1.25em; margin-bottom: 3px; }
-	h5 { font-size: 21px; font-size: 2.1rem; line-height: 1.25em; font-weight: normal; margin-bottom: 3px;  }
-	h6 { font-size: 18px; font-size: 1.8rem; line-height: 1.25em; font-weight: normal; }
+	h5 { font-size: 21px; font-size: 2.1rem; line-height: 1.25em; margin-bottom: 3px;  }
+	h6 { font-size: 18px; font-size: 1.8rem; line-height: 1.25em; }
 
 	h1.entry-title, .post-box > h1 { border-bottom: dashed 1px #999999; text-shadow: 1px 1px 0px #AAAAAA;}
 	h1.entry-title a { color: #333333; }
 	h1.entry-title a:hover { color: #333333; text-shadow: 1px 1px 0px #CC0066; text-decoration:none;}
 	.post-box h2 { border-bottom: dashed 1px #999999; }
-	.post-box h2, .post-box h2 a { font-weight: bold; margin-bottom: 2px; 
+	.post-box h2, .post-box h2 a { font-weight: 400; margin-bottom: 2px; 
 									color: #333333; text-shadow: 1px 1px 0px #AAAAAA; }
 	.post-box h2 a:hover { color: #333333; text-shadow: 1px 1px 0px #CC0066; }
 	.post-box h3 { font-size: 22px;	}

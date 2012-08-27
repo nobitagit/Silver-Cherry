@@ -9,7 +9,7 @@
 	<meta charset="<?php bloginfo('charset'); ?>">
 
 	<title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
-	<link href='http://fonts.googleapis.com/css?family=Lobster+Two|Homenaje' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:700,700italic|Homenaje' rel='stylesheet' type='text/css'>
 
 	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
 	<meta name="viewport" content="width=device-width,initial-scale=1">

@@ -36,3 +36,7 @@ Site title and Headings use Lobster and Homenaje from Google Fonts.
 
 * the number of comments is displayed using CSS3 bubbles as shown by [David Desandro](http://desandro.com/resources/css-speech-bubble-icon/). Still no images.
 * comments bubbles get highlighted only in case comments are present.
+
+##Licensing
+
+This theme and all its bundled resources (including images) are released under GPL/MIT licences.
