@@ -54,9 +54,21 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/libs/modernizr-2.0.6.min.js"></script>
 	
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
+
+
+<?php
+
+echo '<style> a { font-family: ' .get_theme_mod( 'some_setting', 'Lobster Two' ).";\n";
+echo 'color:' .get_theme_mod( 'some_other_setting', '#000000' ).";}\n";
+echo '</style>'
+
+?>
+
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+
+	
 
 	<!-- Start the main container -->
 	<div id="container" class="container" role="document">

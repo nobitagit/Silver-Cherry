@@ -14,7 +14,7 @@
      <h2><a href="<?php the_permalink(); ?>" class="fadeIn">
      <?php if(the_title( '', '', false ) !='') the_title(); else 
 	 /* handles posts with not tile */
-	 echo 'Untitled';?>  </a></h2>
+	 echo '&raquo;';?>  </a></h2>
      
      <div class="meta-post">
     	<p class="right">
@@ -39,10 +39,16 @@
 <?php /*?>			<?php silverCherry_entry_meta();?> <?php */?>		
 
 	</header>
+
 		<div class="entry-content">
 	<?php if (is_archive() || is_search()) : // Only display excerpts for archives and search ?>
 		<?php the_excerpt(); ?>
 	<?php else : ?>
+		<?php 
+			if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+		  		the_post_thumbnail();
+			} 
+		?>
 		<?php the_content('<span class="cherry radius label fadeIn">Read on</span>'); ?>
 	<?php endif; ?>
 		</div>

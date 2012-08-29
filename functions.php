@@ -10,6 +10,8 @@ function silverCherry_setup() {
 	// Add post formarts supports. http://codex.wordpress.org/Post_Formats
 	add_theme_support('post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat'));
 	
+	// support for custom background color and image http://codex.wordpress.org/Custom_Backgrounds
+	add_theme_support( 'custom-background' );
 	// Add menu supports. http://codex.wordpress.org/Function_Reference/register_nav_menus
 	add_theme_support('menus');
 	register_nav_menus(array(
@@ -161,7 +163,99 @@ function general_setting_twitter_callback_function() {
 echo '<input name="general_setting_twitter" id="general_setting_twitter" type="text" value="'. get_option('general_setting_twitter') .'" />';
 }
 
+// controls the max-width of the images in content area, controlling overflow
+// unclear? http://wordpress.org/support/topic/image-resizing-how-do-i-set-max-width-and-still-keep-proportions?replies=6
+if ( ! isset( $content_width ) ) $content_width = 560;
 
+
+// add the Customize link to the Appearance admin menu http://ottopress.com/2012/theme-customizer-part-deux-getting-rid-of-options-pages/
+add_action ('admin_menu', 'silverCherry_admin');
+function silverCherry_admin() {
+	add_theme_page( 'Customize', 'Customize', 'edit_theme_options', 'customize.php' );
+}
+
+/*
+add_action('customize_register', 'silverCherry_customize');
+function silverCherry_customize($wp_customize) {
+
+	$wp_customize->add_section( 'silverCherry_heading_settings', array(
+		'title'          => 'Headings',
+		'priority'       => 35,
+	) );
+
+	$wp_customize->add_setting( 'some_setting', array(
+		'default'        => 'Lobster Two',
+	) );
+
+	$wp_customize->add_control( 'some_setting', array(
+		'label'   => 'Font Setting',
+		'section' => 'silverCherry_heading_settings',
+		//'type'    => 'text',
+		 'type'    => 'select',
+    	'choices'    => array(
+        	'Lobster Two' => 'Lobster',
+        	'Arial' => 'Arial',
+        	'Monospace' => 'Mono')
+	) );
+
+	$wp_customize->add_setting( 'some_other_setting', array(
+		'default'        => '#000000',
+	) );
+
+	$wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'some_other_setting', array(
+		'label'   => 'Color Setting',
+		'section' => 'silverCherry_heading_settings',
+		'settings'   => 'some_other_setting',
+	) ) );
+
+}
+
+
+
+*/
+
+
+
+
+
+
+/*
+
+add_action( 'customize_register', 'silverCherry_color_customizer' );
+
+function silverCherry_color_customizer( $wp_customize )
+{
+   //All our sections, settings, and controls will be added here
+$wp_customize->add_setting('header_textcolor', array(
+                'default'   => '#2BA6CB',
+                //'transport' => 'postMessage',
+        ) );
+        $wp_customize->add_setting('link_textcolor', array(
+                'default'   => '#2BA6CB',
+                'transport' => 'refresh',
+        ) );
+        $wp_customize->add_setting('background_color', array(
+                'default'   => '#ffffff',
+                //'transport' => 'postMessage',
+        ) );
+        //$wp_customize->remove_control('display_header_text');
+        $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'link_textcolor', array(
+                'label'      => __( 'Link Colors', 'silverCherry' ),
+                'section'    => 'colors',
+                'settings'   => 'link_textcolor',
+        ) ) );
+        $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'header_textcolor', array(
+                'label'      => __( 'Header Color', 'silverCherry' ),
+                'section'    => 'colors',
+                'settings'   => 'header_textcolor',
+        ) ) );
+
+}
+
+
+}
+*/
+ 	
 
 
 

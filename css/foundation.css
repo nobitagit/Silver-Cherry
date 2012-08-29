@@ -157,7 +157,7 @@
 	h1.entry-title a { color: #333333; }
 	h1.entry-title a:hover { color: #333333; text-shadow: 1px 1px 0px #CC0066; text-decoration:none;}
 	.post-box h2 { border-bottom: dashed 1px #999999; }
-	.post-box h2, .post-box h2 a { font-weight: 400; margin-bottom: 2px; 
+	.post-box h2, .post-box h2 a { font-weight: 600; margin-bottom: 2px; 
 									color: #333333; text-shadow: 1px 1px 0px #AAAAAA; }
 	.post-box h2 a:hover { color: #333333; text-shadow: 1px 1px 0px #CC0066; }
 	.post-box h3 { font-size: 22px;	}
