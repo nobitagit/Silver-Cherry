@@ -1,7 +1,6 @@
 #Silver Cherry
 
 Silver Cherry is a free WordPress Responsive theme built on Zurb's Foundation and the Reverie Framework.
-Built in HTML5 & CSS3 this theme was developed as a skin to [Pixelite](http://www.pixelite.me) blog, where you can see it live in action.
 
 The main focus here is on content and readability. On *any* screen size.
 
@@ -28,8 +27,6 @@ h2 { font-size: 45px; font-size: 4.5rem; margin-bottom: 9px; }
 h3 { font-size: 28px; font-size: 2.8rem; margin-bottom: 9px; }
 ```
 If you want to read more on this topic then [here](http://snook.ca/archives/html_and_css/font-size-with-rem) you go.
-
-Site title and Headings use Lobster and Homenaje from Google Fonts.
 
 
 ##Other features
