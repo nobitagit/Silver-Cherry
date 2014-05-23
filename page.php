@@ -8,7 +8,7 @@
         
     		</div><!-- /* container of nav+main -->
 
-			<!-- sidebar container -->
+	   	<!-- sidebar container -->
             <div class="four columns sidebar-box" role="complementary">            
             	<?php get_sidebar(); ?>
             </div><!-- /* sidebar container -->
